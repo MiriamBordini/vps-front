@@ -1,0 +1,116 @@
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: lightcoral;
+}
+tr:nth-child(even) {
+    background-color: lightgray;
+}
+button {
+    margin: 5px;
+    padding: 10px;
+    background-color: gray;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+.top-bar {
+    display: block;
+    margin-bottom: 20px; 
+}
+
+.novo-produto {
+    padding: 10px 20px;
+    font-size: 1vw;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(161, 158, 158);
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.novo-produto:hover {
+    background-color: rgb(120, 120, 120);
+}
+
+/* Estilo para o formulário de cadastro */
+.form-cadastro {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.form-cadastro h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5vw;
+}
+
+.form-cadastro table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+
+}
+
+.form-cadastro table td {
+    padding: 10px;
+    font-size: 1vw;
+}
+
+.form-cadastro input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1vw;
+    border: 1px solid rgb(161, 158, 158);
+    border-radius: 5px;
+}
+
+.form-cadastro button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 1vw;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(161, 158, 158);
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.form-cadastro button:hover {
+    background-color: rgb(120, 120, 120);
+}
+
+/* Estilo para o botão "Novo Cliente" */
+.novo-cliente {
+    padding: 10px 20px;
+    font-size: 1vw;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(161, 158, 158);
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.novo-cliente:hover {
+    background-color: rgb(120, 120, 120);
+}
+
+}
+

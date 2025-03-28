@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Produto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="produto.html">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
+    
+
+</head>
+<body>
+    <header>
+        <h1>Cadastre um Produto</h1>
+    </header>
+    <main>
+        <form class="form-cadastro">
+            <h3>Informações do Produto</h3>
+            <table>
+                <tr>
+                    <td><label for="nome">Nome:</label></td>
+                    <td><input type="text" id="nome" name="nome" placeholder="Digite o nome" required></td>
+                </tr>
+                <tr>
+                    <td><label for="descricao">Descrição:</label></td>
+                    <td><input type="text" id="descricao" name="descricao" placeholder="Digite a descrição" required></td>
+                </tr>
+                <tr>
+                    <td><label for="valorCusto">Valor de Custo:</label></td>
+                    <td><input type="number" id="valorCusto" name="valorCusto" placeholder="Digite o valor de custo" required></td>
+                </tr>
+                <tr>
+                    <td><label for="valorVenda">Valor de Venda:</label></td>
+                    <td><input type="number" id="valorVenda" name="valorVenda" placeholder="Digite o valor de venda" required></td>
+                </tr>
+            </table>
+            <button type="submit">Cadastrar</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; Desenvolvido por Miriam Bordini</p>
+    </footer>
+</body>
+</html>
